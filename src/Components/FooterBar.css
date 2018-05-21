@@ -1,0 +1,15 @@
+.footer {
+	margin-top: 50px;
+	border-top: 1px solid lightgrey;
+	background-color: #f9690e;
+	color: white;
+}
+
+/* phone screen */
+@media (min-width: 320px) {
+	.footer {
+		margin-top: 0em;
+		padding-left: 1em;
+		padding-bottom: 4em;
+	}
+}

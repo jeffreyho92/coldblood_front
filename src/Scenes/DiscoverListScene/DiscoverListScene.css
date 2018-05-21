@@ -1,0 +1,114 @@
+/*DiscoverListScene.css*/
+/* phone screen */
+@media (min-width: 320px) {
+    .img_cat_hype {
+        background: black url(../../img/cat_hype.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    .img_cat_sport {
+        background: black url(../../img/cat_sport.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    .img_cat_techwear {
+        background: black url(../../img/cat_techwear.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    .img_cat_mini {
+        background: black url(../../img/cat_mini.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    .img_cat_korean {
+        background: black url(../../img/cat_korean.png) center center no-repeat;
+        background-size: cover;
+    }
+    .img_cat_local {
+        background: black url(../../img/cat_local.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    .img_cat_accessories {
+        background: black url(../../img/cat_accessories.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    .cat_list {
+        padding-top: 4em;
+    }
+    .cat_list_col {
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    .cat_list .cat_list_box span {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cat_list .cat_list_box {
+        height: 17em;
+    }
+}
+
+/* desktop screen */
+@media only screen and (min-width: 768px) {
+    .img_cat_hype {
+        background: black url(../../img/cat_hype.jpg) center center no-repeat fixed;
+        background-size: cover;
+        /*background-position: -105px -120px;*/
+    }
+    .img_cat_sport {
+        background: black url(../../img/cat_sport.jpg) center center no-repeat fixed;
+        background-size: cover;
+        /*background-position: -105px -120px;*/
+    }
+    .img_cat_techwear {
+        background: black url(../../img/cat_techwear.jpg) center center no-repeat fixed;
+        background-size: cover;
+        /*background-position: -105px -120px;*/
+    }
+    .img_cat_mini {
+        background: black url(../../img/cat_mini.jpg) center center no-repeat fixed;
+        background-size: cover;
+        /*background-position: -350px -100px;*/
+    }
+    .img_cat_korean {
+        background: black url(../../img/cat_korean.png) center center no-repeat fixed;
+        background-size: cover;
+        /*background-position: -105px -120px;*/
+    }
+    .img_cat_local {
+        background: black url(../../img/cat_local.jpg) center center no-repeat fixed;
+        background-size: cover;
+        /*background-position: -350px -100px;*/
+    }
+    .img_cat_accessories {
+        background: black url(../../img/cat_accessories.jpg) center center no-repeat fixed;
+        background-size: cover;
+        /*background-position: -350px -100px;*/
+    }
+    .cat_list {
+        padding-top: 4em;
+    }
+    .cat_list .cat_list_box span {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cat_list .cat_list_box {
+        height: 20em;
+    }
+}
+/*
+.cat_list_box span:hover {
+    background-color: #f9690e;
+    color: black;
+}
+*/
+.cat_list a {
+    text-decoration: none;
+}

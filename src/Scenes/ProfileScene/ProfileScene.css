@@ -1,0 +1,23 @@
+.div_profile{
+    padding: 100px 0px 30px 0px;
+}
+
+.div_profile em{
+    font-family: "Droid Serif","Times New Roman",serif;
+    font-size: 2em;
+}
+
+.row_profile p{
+    margin-top: 1em;
+}
+.row_profile{
+    margin: 30px 0px 20px 0px;
+}
+
+/* phone screen */
+@media (min-width:320px)  {
+}
+
+/* desktop screen */
+@media only screen and (min-width: 768px) {
+}
