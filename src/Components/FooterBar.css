@@ -10,6 +10,19 @@
 	.footer {
 		margin-top: 0em;
 		padding-left: 1em;
-		padding-bottom: 4em;
+		padding-bottom: 10em;
 	}
+	.social_icon {
+		width: 2em;
+	}
+}
+
+.btn_fb_me {
+	border-width: 0px;
+}
+.btn_fb_me img {
+	width: 1em;
+}
+.social_icon {
+	width: 3em;
 }
